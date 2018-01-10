@@ -4,9 +4,10 @@
   "description": "Este projeto é apenas inicio de um estudo sobre React.",
   "main": "webpack.config.babel.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
